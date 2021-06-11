@@ -1,0 +1,2 @@
+This video is used to demonstrate the process of object tracking. Using directly Qualcomm Qcs610 SoC open kit and GStreamer process the local video stream. After the model runs, the target object will be tracked frame by frame until the end of the video stream.
+
