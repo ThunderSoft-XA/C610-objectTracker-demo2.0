@@ -1,0 +1,1 @@
+This directory is used to store related dynamic library files from snpe-x.xx.x/lib/dsp. For specific information, please refer to the [top-level README](../../../README.md).
