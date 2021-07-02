@@ -49,7 +49,19 @@ This section mainly describes the source and configuration of some open source p
 1. Download the Neural Processing SDK from here:
    [https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk)
 2. Git clone this project link [https://github.com/ThunderSoft-XA/C610-objectTracker-demo/](https://github.com/ThunderSoft-XA/C610-objectTracker-demo/)
-3. Move the Neural Processing SDK contents to <C610-objectTracker-demo/snpe/include/zdl>
+3. Move the following files or directory from the downloaded the Neural Processing for AI SDK  to the project folder.
+
+|  source folder   | destination folder  |
+|  ----  | ----  |
+| snpe-x.xx.x/lib/dsp  | C610-objectTracker-demo/libs/dsp |
+| snpe-x.xx.x/lib/aarch64-linux-gcc4.9  | C610-objectTracker-demo/libs/snpe |
+| snpe-x.xx.x/include/zdl | C610-objecttracking-demo/objectTracker-demo/snpe/include/zdl |
+
+```
+Notice:
+1. x.xx.x represents Neural Processing for AI SDK version 
+2. In the snpe-x.xx.x/lib/ directory, there are dynamic library folders for different platforms. Please select the available dynamic library yourself. This project uses snpe-x.xx.x/lib/aarch64-linux-gcc4.9.
+```
 
 ### OpenCV
 
